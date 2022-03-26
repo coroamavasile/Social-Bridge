@@ -1,0 +1,39 @@
+import { IconButton } from '@material-ui/core'
+import ArrowBackIcon from '@mui/icons-material/ArrowBack'
+import LogoutIcon from '@mui/icons-material/Logout'
+import React from 'react'
+
+const UserMenu = () =>{
+
+   return(
+
+      <div style={{
+         height: '100%',
+         position: 'absolute',
+         left: '0px',
+         width: '100%',
+         overflow: 'hidden',
+      }}>
+         <ul>
+            <li>
+               <IconButton href="http://localhost:3000/user">
+                  <ArrowBackIcon style={{color:'white'}}/>
+               </IconButton>
+            </li>
+
+            <li> Edit data </li>
+
+            <li
+               style={{float:'right',marginTop:'3px'}}
+            >
+               <IconButton href="/login">
+                  <LogoutIcon style={{color:'white'}}/>
+               </IconButton>
+            </li>
+
+         </ul>
+
+      </div>
+   )
+}
+export default UserMenu;

@@ -1,0 +1,31 @@
+{
+  "incidents": [
+    {
+      "incident_id": 1,
+      "location": {
+        "country": "cljjjj",
+        "coordinates": [
+          23.591423,
+          46.770439
+
+        ],
+        "type": "Point"
+      },
+      "fido_name": "Centru Cluj",
+      "killed": 1
+    },
+    {
+      "incident_id": 2,
+      "location": {
+        "country": "rand",
+        "coordinates": [
+          -94.4632404,
+          18.1224925
+        ],
+        "type": "Point"
+      },
+      "fido_name": "Random location",
+      "killed": 0
+    }
+  ]
+}

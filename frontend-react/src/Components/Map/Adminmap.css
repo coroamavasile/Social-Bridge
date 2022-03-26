@@ -1,0 +1,8 @@
+.popupStyle .mapboxgl-popup-content {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.popupStyle .mapboxgl-popup-close-button{
+    font-size: 30px;
+}
